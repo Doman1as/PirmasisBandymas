@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void changeBackgroundColor(View view) {
         TextView textView = findViewById(R.id.tvMain);
+        //Comment for revert
         textView.setBackgroundColor(Color.MAGENTA);
     }
 }
