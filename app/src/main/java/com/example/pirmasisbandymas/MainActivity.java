@@ -1,5 +1,6 @@
 package com.example.pirmasisbandymas;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -27,5 +28,10 @@ public class MainActivity extends AppCompatActivity {
     public void changeText(View view) {
         TextView textView = findViewById(R.id.tvMain);
         textView.setText("Hello There!");
+    }
+
+    public void changeColor (View view) {
+        TextView textView = findViewById(R.id.tvMain);
+        textView.setTextColor(Color.BLUE);
     }
 }
